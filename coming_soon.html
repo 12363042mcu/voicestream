@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>內容籌備中 - VoiceStream</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* 專屬於此頁面的垂直置中版面 */
+        .coming-soon-container {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .status-badge {
+            display: inline-block;
+            background-color: rgba(234, 179, 8, 0.15);
+            border: 1px solid #eab308;
+            color: #facc15;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .coming-soon-box {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 16px;
+            padding: 50px 40px;
+            max-width: 550px;
+            width: 100%;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .icon-pulse {
+            font-size: 50px;
+            margin-bottom: 15px;
+            display: inline-block;
+            animation: pulse 1.8s infinite ease-in-out;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.15); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container coming-soon-container">
+        <div class="coming-soon-box">
+            <div class="icon-pulse">🚧</div>
+            <br>
+            <span class="status-badge">WORK IN PROGRESS</span>
+            <h1 style="color: #58a6ff; font-size: 26px; margin-bottom: 15px;">內容還在努力產出中！</h1>
+            <p style="color: #8b949e; font-size: 15px; line-height: 1.8; margin-bottom: 30px;">
+                專題成果海報與系統展示影片目前還在後製中，<br>
+                敬請期待完整視覺展現。
+            </p>
+            <a href="index.html" class="pdf-btn" style="background-color: #238636; color: #fff;">
+                ⬅ 返回專題首頁
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
